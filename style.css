@@ -1,0 +1,117 @@
+#navbar div {
+    transition: all 100ms ease-in-out;
+    display: inline;
+    padding: 0 5px;
+}
+
+* {
+    scale: 100%;
+}
+
+#navbar a {
+    transition: all 100ms ease-in-out;
+    margin: 0px 10px;
+    padding: 3px 0px;
+    font-size: 25px;
+    text-decoration: none;
+    color:rgb(75, 66, 66);
+}
+
+#navbar a:hover {
+    transition: all 100ms ease-in-out;
+    color: black;
+}
+
+#navbar .active {
+    color: black;
+    border-bottom: 3px rgb(0, 0, 0) solid;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+td {
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+th {
+    padding: 0px 10px;
+    font-size: 22px;
+}
+
+button {
+    font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+}
+
+select {
+    font-size: 20px;
+}
+
+#navbar {
+    padding-bottom: 50px;
+}
+
+#orderinfo {
+    padding-bottom: 20px;
+}
+
+.pizzarow {
+    border-top: 1px solid gray;
+    background-color: rgb(248, 243, 236);
+}
+
+.pizzarow td{
+    background-color: rgb(248, 243, 236);
+    border-top: 1px solid gray;
+}
+
+#back {
+    margin: 0px 10px;
+    padding: 3px 0px;
+    transition: all 100ms ease-in-out;
+    text-decoration: none;
+    color:rgb(75, 66, 66);
+    font-size: 25px;
+}
+
+#backbox {
+    padding-bottom: 50px;
+}
+
+#back:hover {
+    transition: all 100ms ease-in-out;
+    color:black;
+}
+
+#cart {
+    border-collapse: collapse;
+}
+
+#singleorder {
+    border-collapse: collapse;
+}
+
+#loginform input {
+    display: list-item;
+    margin-bottom: 20px;
+}
+
+#registerform input {
+    display: list-item;
+    margin-bottom: 20px;
+}
+
+.errormsg {
+    font-size: 17px;
+    color: rgb(124, 10, 10);
+}
